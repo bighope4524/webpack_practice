@@ -81,43 +81,31 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/javascripts/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/javascripts/main.js":
+/*!*********************************!*\
+  !*** ./src/javascripts/main.js ***!
+  \*********************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/my.js */ \"./src/modules/my.js\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/my.css */ \"./src/modules/my.css\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_my_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log(\"webpack\");\nObject(_modules_my_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.js */ \"./src/javascripts/main.js\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/main.css */ \"./src/stylesheets/main.css\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log(\"webpack\");\nObject(_main_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack:///./src/javascripts/main.js?");
 
 /***/ }),
 
-/***/ "./src/modules/my.css":
-/*!****************************!*\
-  !*** ./src/modules/my.css ***!
-  \****************************/
+/***/ "./src/stylesheets/main.css":
+/*!**********************************!*\
+  !*** ./src/stylesheets/main.css ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/modules/my.css?");
-
-/***/ }),
-
-/***/ "./src/modules/my.js":
-/*!***************************!*\
-  !*** ./src/modules/my.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  console.log(\"This is modules\");\n});\n\n\n//# sourceURL=webpack:///./src/modules/my.js?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/stylesheets/main.css?");
 
 /***/ })
 
